@@ -54,6 +54,11 @@ TweenMax.from(".logo", 2, {
       ease: Expo.easeInOut
 })
 
+$(".menu-icon").on("click", function() {
+            $("nav ul").toggleClass("showing");
+      });
+
+
 });
 
 

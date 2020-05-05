@@ -53,13 +53,13 @@ a:hover {
 }
 
 .logo:hover {
-    animation: rotation 1.5s ease-in-out;
+  animation: rotation 1.5s ease-in-out;
 
 }
 
 
 @keyframes rotation {
-    from {
+  from {
       transform: rotate(0deg);
 }
 to {
@@ -272,28 +272,7 @@ nav ul li {
 }
 
 @media (max-width: 640px) {
-      .kontakt {
-            padding-bottom: 30px;
-            height: auto;
-      }
-      .kutija {
-            left: 7%;
-            max-width: 86%;
-            height: auto;
-      }
-      #deo1 {
-            float: none;
-            width: 100%;
-      }
-      
-      #deo1 iframe {
-            border-right: none;
-            border-bottom: solid #727877;
-      }
-      #deo2 {
-            float: none;
-            width: 100%;
-      }
+
       .menu-icon {
             z-index: 7;
             position: fixed;
@@ -349,7 +328,45 @@ nav ul li {
             padding: 24px;
             text-align: center;
       }
+      /*INDEX PAGE MEDIA QUERY*/
+      .side-strip{
+            display: none;
+      }
 
+      .social-media ul {
+            padding-left: 20px;
+      }
+
+      .header {
+            transform: none;
+            width: 70%;
+            top: 30%;
+            left: 15%;
+      }
+
+      /*KONTAKT MEDIA QUERY*/
+      .kontakt {
+            padding-bottom: 30px;
+            height: auto;
+      }
+      .kutija {
+            left: 7%;
+            max-width: 86%;
+            height: auto;
+      }
+      #deo1 {
+            float: none;
+            width: 100%;
+      }
+      
+      #deo1 iframe {
+            border-right: none;
+            border-bottom: solid #727877;
+      }
+      #deo2 {
+            float: none;
+            width: 100%;
+      }
       .wrapperK h2 {
             top: 20%;
             right: 0px;
