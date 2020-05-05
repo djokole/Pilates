@@ -42,13 +42,13 @@ TweenMax.from(".header p", 2, {
 })
 
 TweenMax.from(".header button", 2, {
-      delay: 3.6,
+      delay: 3.8,
       opacity: 0,
       y: 20,
-      ease: Bounce.easeOut
+      ease: Expo.easeInOut
 })
 TweenMax.from(".logo", 2, {
-      delay: 3.6,
+      delay: 4.1,
       opacity: 0,
       y: 20,
       ease: Expo.easeInOut
