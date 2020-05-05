@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 $( document ).ready(function() {
 TweenMax.to(".overlay h1", 2, {
       opacity: 0,
