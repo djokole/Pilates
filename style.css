@@ -49,7 +49,7 @@ a:hover {
 
 .logo img {
       max-height: 120px;
-      box-shadow: 5px 6px 12px 1px #1f1e1d;
+      box-shadow: 2px 1px 7px 0px #4a6764;
       border-radius: 50%;
 }
 
@@ -203,7 +203,7 @@ nav ul li {
 .wrapperK {
       width: 100vw;
       height: 30vh;
-      background: url(img/pilates7.jpg) no-repeat 50% 50%;
+      background: url(img/46.jpg) no-repeat 50% 28%;
       background-size: cover;
 }
 
@@ -370,6 +370,10 @@ nav ul li {
       #deo2 {
             float: none;
             width: 100%;
+      }
+      .wrapperK {
+            background-color: #d9f9f6;
+            
       }
       .wrapperK h2 {
             top: 20%;
