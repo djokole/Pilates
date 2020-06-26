@@ -10,6 +10,7 @@ html, body {
       height: 100%;
       color: #454850;
       font-family: Helvetica Neue, Arial, sans-serif;
+      background-color: #cbe9e6;
 }
 
 
@@ -30,7 +31,7 @@ a:hover {
 .wrapper {
       width: 100vw;
       height: 100vh;
-      background: url(img/13.jpg) no-repeat 50% 50%;
+      background: url(img/14.jpg) no-repeat 0% 50%;
       background-size: cover;
 
 }
@@ -54,13 +55,13 @@ a:hover {
 }
 
 .logo:hover {
-  animation: rotation 1.5s ease-in-out;
+    animation: rotation 1.5s ease-in-out;
 
 }
 
 
 @keyframes rotation {
-  from {
+    from {
       transform: rotate(0deg);
 }
 to {
@@ -113,7 +114,7 @@ nav ul li {
 }
 
 .social-media {
-      font-size: 27px;
+      font-size: 20px;
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
@@ -145,9 +146,10 @@ nav ul li {
 .header {
       position: absolute;
       top: 38%;
-      left: 35%;
+      left: 33%;
       transform: translate(-50%, -50%);
-      width: 30%;
+      width: 50%;
+      text-align: center;
 }
 
 .header h1 {
@@ -156,28 +158,32 @@ nav ul li {
 }
 
 #ime {
+      font-size: 55px;
       color: #7bd0cc;
 }
 
 .header h3, h6 {
+      margin-top: 3%;
       color: #fff;
       font-weight: lighter;
       text-shadow: 3px 5px 13px #000;
 }
 
 .header h6 {
-      font-size: 1.5rem;
+      font-style: italic;
+      margin-top: 10%; 
+      font-size: 1.7rem;
 }
 
 .header button {
       margin-top: 12px;
       border: none;
-      padding: 16px 40px;
+      padding: 20px 40px;
       background: #cbe9e6;
       color: #000;
       letter-spacing: 4px;
       font-weight: bold;
-      font-size: 12px;
+      font-size: 20px;
       border-radius: 15px;
       box-shadow: 4px 3px 12px;
 }
@@ -341,22 +347,38 @@ nav ul li {
             padding: 24px;
             text-align: center;
       }
-      /*INDEX PAGE MEDIA QUERY*/
+
       .side-strip{
             display: none;
       }
-
-      .social-media ul {
-            padding-left: 20px;
+      
+      .social-media {
+            position: fixed;
+            left: 15%;
+            font-size: 17px;
+            top: 4%;
+            z-index: 15;
       }
+      .social-media ul li {
+            float: left;
+            padding-top: 20px;
+            padding-left: 30px;
+            color: white;
+      }
+
+
+      /*INDEX PAGE MEDIA QUERY*/
 
       .header {
             transform: none;
             width: 70%;
-            top: 30%;
+            top: 20%;
             left: 15%;
       }
 
+      .header h6 {
+            margin-top: 30%;
+      }
       /*KONTAKT MEDIA QUERY*/
       .kontakt {
             padding-bottom: 30px;

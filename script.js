@@ -28,27 +28,33 @@ TweenMax.from(".side-strip", 2, {
 
 
 TweenMax.from(".header h1", 2.5, {
-      delay: 3.2,
+      delay: 3.0,
       opacity: 0,
       y: 20,
       ease: Expo.easeInOut
 })
 
-TweenMax.from(".header p", 2, {
+
+TweenMax.from(".header h3", 2, {
       delay: 3.4,
       opacity: 0,
       y: 20,
       ease: Expo.easeInOut
 })
-
+TweenMax.from(".header h6", 2, {
+      delay: 5,
+      opacity: 0,
+      y: 20,
+      ease: Expo.easeInOut
+})
 TweenMax.from(".header button", 2, {
-      delay: 3.8,
+      delay: 5,
       opacity: 0,
       y: 20,
       ease: Expo.easeInOut
 })
 TweenMax.from(".logo", 2, {
-      delay: 4.1,
+      delay: 4,
       opacity: 0,
       y: 20,
       ease: Expo.easeInOut
