@@ -11,7 +11,12 @@ TweenMax.to(".overlay", 2, {
       ease: Expo.easeInOut
 })
 
-TweenMax.staggerFrom(".nav ul li", 1, {
+TweenMax.to(".overlay", 0.2, {
+      delay: 3,
+      zIndex: "6"
+})
+
+TweenMax.staggerFrom("nav ul li", 1, {
       delay: 2.4, opacity: 0, y: 20, ease: Expo.easeInOut
 }, 0.2)
 
