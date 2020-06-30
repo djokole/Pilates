@@ -360,10 +360,18 @@ nav ul li {
       font-size: 25px;
 }
 
+#merr {
+      position: fixed;
+      top:80%;
+      max-width: 300px;
+      left: 1%;
+}
+
+
 @media (max-width: 820px) {
 
       .wrapperK {
-            background: url(img/22m.jpg) no-repeat;
+            background: url(img/22.jpg) no-repeat;
             background-size: cover;
       }
       .wrapperK h2 {
