@@ -31,7 +31,7 @@ a:hover {
 .wrapper {
       width: 100vw;
       height: 100vh;
-      background: url(img/14.jpg) no-repeat 0% 50%;
+      background: url(img/14.jpg) no-repeat 49% 50%;
       background-size: cover;
 
 }
@@ -55,13 +55,13 @@ a:hover {
 }
 
 .logo:hover {
-    animation: rotation 1.5s ease-in-out;
+  animation: rotation 1.5s ease-in-out;
 
 }
 
 
 @keyframes rotation {
-    from {
+  from {
       transform: rotate(0deg);
 }
 to {
@@ -294,7 +294,7 @@ nav ul li {
 .pasus {
       position: relative;
       left: 10vw;
-      margin-top: 20px;
+      margin-top: 5vh;
       width: 80vw;
 }
 .pasus p {
@@ -362,6 +362,15 @@ nav ul li {
 
 @media (max-width: 820px) {
 
+      .wrapperK {
+            background: url(img/22.jpg) no-repeat;
+            background-size: cover;
+      }
+      .wrapperK h2 {
+            top: 15%;
+            right: 0px;
+      }
+
       .menu-icon {
             z-index: 7;
             position: fixed;
@@ -426,9 +435,9 @@ nav ul li {
       
       .social-media {
             position: fixed;
-            left: 15%;
+            left: 28vw;
             font-size: 17px;
-            top: 4%;
+            top: 5%;
             z-index: 15;
       }
       .social-media ul li {
@@ -449,7 +458,7 @@ nav ul li {
       }
 
       .header h6 {
-            margin-top: 30%;
+            margin-top: 20%;
       }
 
       /*CENOVNIK MEDIA QUERY*/
@@ -502,12 +511,10 @@ nav ul li {
             float: none;
             width: 100%;
       }
-      .wrapperK {
-            background-color: #d9f9f6;
-            
-      }
-      .wrapperK h2 {
-            top: 20%;
-            right: 0px;
+
+}
+@media (max-width: 420px) {
+      .social-media {
+            left: 13%;
       }
 }

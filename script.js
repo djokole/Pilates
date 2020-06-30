@@ -11,7 +11,7 @@ TweenMax.to(".overlay", 2, {
       ease: Expo.easeInOut
 })
 
-TweenMax.to(".overlay", 0.2, {
+TweenMax.to(".overlay", 0, {
       delay: 3,
       zIndex: "6"
 })
