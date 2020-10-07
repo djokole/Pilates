@@ -3,7 +3,7 @@
       src: url("fonts/aqum.otf");
 }
 
-html, body {
+body {
       margin: 0;
       padding: 0;
       width: 100%;
@@ -288,6 +288,10 @@ nav ul li {
 }
 
 /*TRENING*/
+.t-body {
+      background-color: #e1f3f0;
+}
+
 .underline {
       text-decoration: underline;
 }
@@ -297,13 +301,21 @@ nav ul li {
 .pasus {
       position: relative;
       left: 10vw;
-      margin-top: 5vh;
+      margin-top: 4vh;
       width: 80vw;
       background-color: #fcfdfd;
       border: solid 1px #3b3e42;
       border-radius: 3%;
       padding: 2px 8px;
 }
+
+.pasus h3 {
+      font-size: 28px;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 5%;
+}
+
 .pasus p {
       font-size: 24px;
 }
@@ -402,6 +414,7 @@ nav ul li {
       .wrapperK {
             background: url(img/barre-m.jpg) no-repeat;
             background-size: cover;
+            box-shadow: 0px 2px 20px 0px #000;
       }
       .wrapperK h2 {
             top: 18%;
@@ -490,7 +503,7 @@ nav ul li {
       .header {
             transform: none;
             width: 70%;
-            top: 22%;
+            top: 32%;
             left: 15%;
       }
       
@@ -512,6 +525,7 @@ nav ul li {
       }
 
       #button {
+            display: none;
             padding: 15px 40px;
       }
 
@@ -519,9 +533,14 @@ nav ul li {
 
       .pasus {
             background-color: #fcfdfd;
-            border: solid 1px #3b3e42;
-            border-radius: 3%;
+            border: solid 0px #3b3e42;
+            border-radius: 0%;
+            width: 90vw;
+            left: 5vw;
             padding: 2px 8px;
+            padding-bottom: 1vh;
+            padding-top: 2vh;
+            box-shadow: 0px 20px 18px -23px #000;
       }
 
       .pasus p {
@@ -531,8 +550,8 @@ nav ul li {
 
       /*CENOVNIK MEDIA QUERY*/
       .cenovnik {
-            width: 80vw;
-            left: 10vw;
+            width: 90vw;
+            left: 5vw;
       }
 
       .cenovnik h4{
@@ -555,18 +574,37 @@ nav ul li {
 
       .cenodiv {
             background-color: #fcfdfd;
-            border: solid 1px #3b3e42;
-            border-radius: 3%;
-            margin-bottom: 10%;
+            border: solid 0px #3b3e42;
+            border-radius: 0%;
+            margin-top: 10%;
+            padding-bottom: 4%;
+            padding-top: 4%;
+            box-shadow: 0px 20px 18px -23px #000;
+
       }
 
       /*RASPORED MEDIA QUERY*/
+      .raspored {
+            width: 100vw;
+            left: 0vh;
+      }
+
       .raspored div {
             width: 100%;
             display: block;
       }
       .raspored h3 {
             margin-top: 10%;
+            margin-bottom: 5%;
+      }
+
+      .rasporedR {
+            box-shadow: 0px 20px 18px -23px #000;
+            padding-bottom: 4vh;
+      }
+
+      .raspored table {
+            table-layout: fixed;
       }
 
       /*KONTAKT MEDIA QUERY*/
