@@ -215,7 +215,7 @@ nav ul li {
 
 /*TRENING*/
 .t-body {
-      background-color: #b6e6efa6;
+      background-color: #b6e6ef;
 }
 
 .underline {
@@ -225,14 +225,10 @@ nav ul li {
       font-weight: bold;
 }
 .pasus {
+      background-color: white;
+      padding: 2vh 10vw 1vh;
       position: relative;
-      left: 10vw;
-      margin-top: 4vh;
-      width: 80vw;
-      background-color: #fcfdfd;
-      border: solid 1px #3b3e42;
-      padding: 2px 8px;
-      box-shadow: 9px 20px 20px -18px #000;
+      margin-top: 2vh;
 }
 
 .pasus h3 {
@@ -256,9 +252,9 @@ nav ul li {
 .cenovnik {
       margin-top: 5vh;
       text-align: center;
-      width: 40vw;
+      width: 100vw;
       position: relative;
-      left: 30vw;
+      left: 0vw;
 }
 
 .cenovnik ul {
@@ -266,7 +262,12 @@ nav ul li {
       list-style-type: none;
 }
 .cenovnik ul li{
-      font-size: 1.3rem;
+      font-size: 1.5rem;
+}
+
+.cenovnik p {
+      padding-top: 2vh;
+      font-size: 1.5rem;
 }
 .cenovnik h4 {
       font-size: 2rem;
@@ -280,10 +281,14 @@ nav ul li {
       text-decoration: underline;
 }
 .cenodiv {
+      padding-bottom: 4vh;
+      padding-top: 4vh;
       background-color: #fcfdfd;
-      border: solid 1px #3b3e42;
-      margin-bottom: 10%;
       box-shadow: 0px 20px 18px -23px #000;
+}
+
+.plavi {
+      background-color: #b6e6ef;
 }
 /*RASPORED*/
 .raspored {
@@ -301,9 +306,6 @@ nav ul li {
 .raspored div{
       width: 40%;
       display: inline-block;
-      box-shadow: 0px 20px 18px -23px #000;
-      background-color: #fff;
-      border: solid 1px #0006;
       margin-top: 10%;
       padding-bottom: 3%;
       padding-top: 3%;
@@ -321,7 +323,7 @@ nav ul li {
 
 .raspored th {
       font-size: 22px;
-      background-color: #7bd0cc;
+      background-color: #66aebb;
 }
 
 .raspored td {
@@ -579,8 +581,8 @@ nav ul li {
 
       /*CENOVNIK MEDIA QUERY*/
       .cenovnik {
-            width: 90vw;
-            left: 5vw;
+            width: 100vw;
+            left: 0vw;
       }
 
       .cenovnik h4{
@@ -598,17 +600,17 @@ nav ul li {
       }
 
       .cenovnik ul li {
-            font-size: 1.2rem;
+            font-size: 1.4rem;
       }
 
       .cenodiv {
-            background-color: #fcfdfd;
-            border: solid 1px #0006;
+            border: solid 0px #0006;
             border-radius: 0%;
-            margin-top: 10%;
+            margin-top: 0%;
+            margin-bottom: 0%;
             padding-bottom: 4%;
-            padding-top: 4%;
-            box-shadow: 0px 20px 18px -23px #000;
+            padding-top: 8%;
+            box-shadow: none;
 
       }
 
@@ -616,22 +618,32 @@ nav ul li {
       .raspored {
             width: 100vw;
             left: 0vh;
+            margin-bottom: 0vh;
       }
 
       .raspored div {
-            width: 90vw;
-            left: 5vw;
+            width: 100vw;
+            left: 0vw;
+            margin-top: 0vh;
             position: relative;
             display: block;
-            padding-bottom: 7%;
+            border: 0px;
       }
       .raspored h3 {
             margin-top: 10%;
             margin-bottom: 5%;
       }
 
-      .rasporedB {
+      body .rasporedR {
+            background-color: #b6e6ef;
+            padding-bottom: 5vh;
+      }
+
+      body .rasporedB {
             margin-left: 0vh;
+            padding-bottom: 8vh;
+            margin-top: 0vh;
+            background-color: white;
       }
 
       .raspored table {
